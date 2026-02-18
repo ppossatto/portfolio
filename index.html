@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Possatto - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5/dist/cyborg/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarColor02" data-bs-offset="20">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid w-75">
+            <a class="navbar-brand" href="#">Paulo Possatto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="about" class="container-fluid w-75 mt-4 about-height">
+        <div class="w-100 h-100 d-flex flex-column justify-content-center">
+            <div class="d-flex flex-xl-row">
+                <h2 class="text-primary">I work with&nbsp;</h2>
+                <h2 class="text-primary" id="main-title"></h2>
+            </div>
+            <div class="d-flex flex-xl-row justify-content-start">
+                <div class="d-flex flex-xl-column justify-content-start w-50">
+                    <p>I build scalable services mainly with modern versions of Java and Spring Boot. I am interested in
+                        building well-structured applications, prioritizing code clarity, maintainability, and good
+                        design practices.</p>
+                    <p>I am also familiar with frontend development using Angular and Bootstrap, Postgres, MySQL, Oracle
+                        and MongoDB databases and CI/CD tools like GitHub Actions, Grafana, Prometheus and Kubernetes.
+                    </p>
+                    <p>Even being more familiarized with Java and Spring Boot development for APIs, I've also explored
+                        API design using Python and Django.</p>
+                    <p>For more details, check the <a href="#skills">skills section</a>.</p>
+                </div>
+                <div class="d-flex justify-content-center align-items-center w-50">
+                    <img src="./assets/computador.jpg" class="img-fluid" alt="Computer image" style="width: 60%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="container-fluid d-flex flex-xl-column w-75">
+        <h3 class="mb-4">Work Experience</h3>
+        <!-- -->
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">IT Consultant</h3>
+            <div class="card-body">
+                <h5 class="card-title">Huxley</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">Madrid, Spain</h6>
+                    <h6 class="card-subtitle text-muted">December 2024 - Present</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Developed REST API endpoints to be used by other internal micro services using Java 21, Spring Boot
+                    3 and Maven, deployed with a containerized image.
+                </li>
+                <li class="list-group-item">
+                    Enabled asynchronous communication with other services using Kafka, created events for specific
+                    topic and created AVRO schemas for consumers to utilize.
+                </li>
+                <li class="list-group-item">
+                    Utilized pipelines for service deployment, application testing and scan vulnerabilities using Azure
+                    Pipelines for dev, staging and production environments.
+                </li>
+            </ul>
+            <div class="card-body">
+                <div class="d-flex flex-xl-row justify-content-sm-around flex-wrap">
+                    <p class="text-primary text-uppercase">Java</p>
+                    <p class="text-primary text-uppercase">Spring Boot</p>
+                    <p class="text-primary text-uppercase">Kafka</p>
+                    <p class="text-primary text-uppercase">Git</p>
+                    <p class="text-primary text-uppercase">Docker</p>
+                    <p class="text-primary text-uppercase">Kubernetes</p>
+                    <p class="text-primary text-uppercase">Oracle DB</p>
+                    <p class="text-primary text-uppercase">Open Shift</p>
+                    <p class="text-primary text-uppercase">Grafana</p>
+                    <p class="text-primary text-uppercase">Agile</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Java Developer</h3>
+            <div class="card-body">
+                <h5 class="card-title">AD4 Octógono</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">Zaragoza, Spain</h6>
+                    <h6 class="card-subtitle text-muted">September 2024 - October 2024</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Collaborated with other teams to assist with development before obtaining the necessary permissions
+                    to gain access to the project.
+                </li>
+                <li class="list-group-item">
+                    Audited communication with different teams to define business logic and implementations following
+                    company guidelines and best practices.
+                </li>
+                <li class="list-group-item">
+                    Analyzed and modified OpenAPI documentation and validated technical documentation for existing
+                    projects.
+                </li>
+            </ul>
+            <div class="card-body">
+                <div class="d-flex flex-xl-row justify-content-sm-around flex-wrap">
+                    <p class="text-primary text-uppercase">Java</p>
+                    <p class="text-primary text-uppercase">Spring Boot</p>
+                    <p class="text-primary text-uppercase">Open API</p>
+                    <p class="text-primary text-uppercase">Git</p>
+                    <p class="text-primary text-uppercase">Postman</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Software Engineer</h3>
+            <div class="card-body">
+                <h5 class="card-title">NTT Data</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">Málaga, Spain</h6>
+                    <h6 class="card-subtitle text-muted">November 2023 - September 2024</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Built and maintained APIs following specifications defined in documentation and validated using
+                    Contract Testing.
+                </li>
+                <li class="list-group-item">
+                    Analyzed code coverage with JaCoCo plugin and checked vulnerabilities, code smells and validated
+                    clean code with SonarQube.
+                </li>
+                <li class="list-group-item">
+                    Engineered business logic for reading CSV files, process the information and write to a PostgreSQL
+                    database using Spring Batch.
+                </li>
+            </ul>
+            <div class="card-body">
+                <div class="d-flex flex-xl-row justify-content-sm-around flex-wrap">
+                    <p class="text-primary text-uppercase">Java</p>
+                    <p class="text-primary text-uppercase">Spring Boot</p>
+                    <p class="text-primary text-uppercase">SonarQube</p>
+                    <p class="text-primary text-uppercase">Git</p>
+                    <p class="text-primary text-uppercase">Docker</p>
+                    <p class="text-primary text-uppercase">RabbitMQ</p>
+                    <p class="text-primary text-uppercase">Maven</p>
+                    <p class="text-primary text-uppercase">PostgreSQL</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">IT Consultant</h3>
+            <div class="card-body">
+                <h5 class="card-title">Timestamp S.A.</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">Lisbon, Portugal</h6>
+                    <h6 class="card-subtitle text-muted">July 2022 - November 2023</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Optimized the operation and created new endpoints on legacy systems using the Model-View-Controller
+                    pattern.
+                </li>
+                <li class="list-group-item">
+                    Programmed cucumber scenarios to validate functional tests for different use cases.
+                </li>
+                <li class="list-group-item">
+                    Built from zero a new user interface using Angular 15.
+                </li>
+            </ul>
+            <div class="card-body">
+                <div class="d-flex flex-xl-row justify-content-sm-around flex-wrap">
+                    <p class="text-primary text-uppercase">Java</p>
+                    <p class="text-primary text-uppercase">Spring Boot</p>
+                    <p class="text-primary text-uppercase">SOAP</p>
+                    <p class="text-primary text-uppercase">Git</p>
+                    <p class="text-primary text-uppercase">Cucumber</p>
+                    <p class="text-primary text-uppercase">Gherkin</p>
+                    <p class="text-primary text-uppercase">Angular</p>
+                    <p class="text-primary text-uppercase">Oracle DB</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Junior System Engineer</h3>
+            <div class="card-body">
+                <h5 class="card-title">Minsait</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">São Paulo, Brazil</h6>
+                    <h6 class="card-subtitle text-muted">June 2021 - July 2022</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Assembled and maintained endpoints and UI in a Java 11 service application with Spring Boot and JSP.
+                </li>
+                <li class="list-group-item">
+                    Integrated services with SQL databases for data storage and NoSQL databases for temporary
+                    persistence of information.
+                </li>
+                <li class="list-group-item">
+                    Created business logic for event-driven design application.
+                </li>
+            </ul>
+            <div class="card-body">
+                <div class="d-flex flex-xl-row justify-content-sm-around flex-wrap">
+                    <p class="text-primary text-uppercase">Java</p>
+                    <p class="text-primary text-uppercase">Spring Boot</p>
+                    <p class="text-primary text-uppercase">RestAPI</p>
+                    <p class="text-primary text-uppercase">Git</p>
+                    <p class="text-primary text-uppercase">Groovy</p>
+                    <p class="text-primary text-uppercase">MongoDB</p>
+                    <p class="text-primary text-uppercase">MySQL</p>
+                    <p class="text-primary text-uppercase">Hibernate</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Intern</h3>
+            <div class="card-body">
+                <h5 class="card-title">Motorola Mobility</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">Jaguariúna, Brazil</h6>
+                    <h6 class="card-subtitle text-muted">October 2019 - November 2020</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Created automated hardware tests programs with ADB to validate the basic functioning devices.
+                </li>
+                <li class="list-group-item">
+                    Developed object-relational mapping for entities using javax persistence API.
+                </li>
+                <li class="list-group-item">
+                    Created a relational database from zero using MySQL Workbench.
+                </li>
+            </ul>
+            <div class="card-body">
+                <div class="d-flex flex-xl-row justify-content-sm-around flex-wrap">
+                    <p class="text-primary text-uppercase">Java</p>
+                    <p class="text-primary text-uppercase">Spring Boot</p>
+                    <p class="text-primary text-uppercase">RestAPI</p>
+                    <p class="text-primary text-uppercase">Git</p>
+                    <p class="text-primary text-uppercase">J2EE</p>
+                    <p class="text-primary text-uppercase">MySQL</p>
+                    <p class="text-primary text-uppercase">Postman</p>
+                    <p class="text-primary text-uppercase">Jira</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+    </section>
+    <section id="projects" class="container-fluid d-flex flex-xl-column w-75 mt-5">
+        <h3 class="mb-4">Personal Projects</h3>
+        <div class="d-flex flex-xl-column justify-content-lg-start">
+            <div id="dynamic-cards" class="d-flex flex-xl-row justify-content-lg-start"></div>
+        </div>
+    </section>
+    <section class="container-fluid d-flex flex-xl-column w-75 mt-5" id="skills">
+        <h3 class="mb-4">Skills</h3>
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Backend</h3>
+            <div class="card-body" style="background-color: rgba(107, 102, 99, 0.363);">
+                <div class="d-flex flex-xl-row justify-content-around flex-wrap">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java"
+                        alt="java-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                        title="Spring" alt="spring-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        title="Python" alt="python-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" title="Maven"
+                        alt="maven-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+                        title="Kafka" alt="kafka-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg"
+                        title="RabbitMQ" alt="rabbitmq-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg"
+                        title="JUnit5" alt="junit-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Frontend</h3>
+            <div class="card-body" style="background-color: rgba(107, 102, 99, 0.363);">
+                <div class="d-flex flex-xl-row justify-content-around flex-wrap">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg"
+                        title="Angular" alt="angular-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                        title="HTML 5" alt="html-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS 3"
+                        alt="css-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        title="JavaScript" alt="javascript-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        title="TypeScript" alt="typescript-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                        title="Bootstrap" alt="bootstrap-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Databases</h3>
+            <div class="card-body" style="background-color: rgba(107, 102, 99, 0.363);">
+                <div class="d-flex flex-xl-row justify-content-around flex-wrap">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                        title="PostgreSQL" alt="postgresql-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL"
+                        alt="mysql-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
+                        title="OracleDB" alt="oracle-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                        title="MongoDB" alt="mongodb-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">DevOps</h3>
+            <div class="card-body" style="background-color: rgba(107, 102, 99, 0.363);">
+                <div class="d-flex flex-xl-row justify-content-around flex-wrap">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg"
+                        title="Kubernetes" alt="kubernetes-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"
+                        title="GitHub Actions" alt="githubactions-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
+                        title="Grafana" alt="grafana-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"
+                        title="Prometheus" alt="prometheus-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" title="NGINX"
+                        alt="nginx-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" title="Linux"
+                        alt="linux-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Tools</h3>
+            <div class="card-body" style="background-color: rgba(107, 102, 99, 0.363);">
+                <div class="d-flex flex-xl-row justify-content-around flex-wrap">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                        title="Docker" alt="docker-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git"
+                        alt="git-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        title="GitHub" alt="github-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
+                        title="Intellij" alt="intellij-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg"
+                        title="Markdown" alt="markdown-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg"
+                        title="OpenAPI" alt="openapi-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                        title="Postman" alt="postman-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"
+                        title="PyCharm" alt="pycharm-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                        title="VS Code" alt="vscode-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="container-fluid d-flex flex-xl-column w-75 mt-5">
+        <h3 class="mb-4">Education</h3>
+        <div class="card mb-4">
+            <h3 class="card-header text-primary">Bachelor's degree in Electrical Engineering</h3>
+            <div class="card-body">
+                <h5 class="card-title">Pontifical Catholic University of Campinas</h5>
+                <div class="d-flex justify-content-between">
+                    <h6 class="card-subtitle text-muted">Campinas, Brazil</h6>
+                    <h6 class="card-subtitle text-muted">February 2016 - June 2021</h6>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Participated in scientific initiation in embedded systems.
+                </li>
+                <li class="list-group-item">
+                    Helped vulnerable people understand the socioeconomic benefits of saving energy.
+                </li>
+                <li class="list-group-item">
+                    Final course project: Deposition of thin cerium oxide films for device applications.
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="container-fluid d-flex flex-xl-column w-75 mt-5">
+        <h3 class="mb-4">Contact</h3>
+        <div class="card mb-4">
+            <h5 class="card-header text-primary">Feel free to contact me with any of the platforms below:</h5>
+
+            <div class="card-body" style="background-color: rgba(107, 102, 99, 0.363);">
+                <div class="d-flex flex-xl-row justify-content-around flex-wrap">
+                    <a href="https://www.linkedin.com/in/paulopossatto/?locale=en-US" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                            title="Contact with LinkedIn" alt="linkedin-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    </a>
+                    <a href="https://github.com/ppossatto" target="_blank" rel="noopener noreferrer">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            title="Contact with GitHub" alt="github-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    </a>
+                    <a href="mailto:paulo.possatto@outlook.com?subject=Portifolio%20visualization">
+                        <img src="./assets/mail.svg" title="Contact with Email" alt="email-logo" class="img-tech-element" data-bs-toggle="tooltip" data-bs-placement="top">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid w-75 mt-5 mb-3 d-flex justify-content-between align-items-center">
+        <p class="text-muted mb-0">© 2026 Paulo Possatto</p>
+        <a href="#about" class="text-muted"><i class="bi bi-arrow-90deg-up"></i>&nbsp;Back to top</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -85,12 +85,18 @@ async function generateCard(response) {
 
         const elementsWithTags = await Promise.all(promises);
         let cardHTML = "";
-        let cardsCount = 0;
 
         elementsWithTags.forEach(element => {
-            if (cardsCount < 3 && element.name != "ppossatto" && !element.private) {
+            if (element.name != "ppossatto" && !element.private) {
+                let repoTopics = '<div class="d-flex flex-row justify-content-start flex-gap-10 flex-wrap">\n\t';
+                element.topics.forEach(topic => {
+                    if(topic != null){
+                        repoTopics += `<span class="badge rounded-pill bg-secondary">${topic}</span>\n`
+                    }
+                })
+                repoTopics += "</div>"
                 cardHTML += `
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" style="min-height: 320px;">
                     <div class="card border-primary h-100">
                         <div class="card-header">GitHub</div>
                         <div class="card-body d-flex flex-column">
@@ -98,6 +104,9 @@ async function generateCard(response) {
                             <p class="card-text flex-grow-1">${element.description || 'No Description'}</p>
                             <div class="mb-3">
                                 ${element.languageTags}
+                            </div>
+                            <div class="mb-3">
+                                ${repoTopics}
                             </div>
                             <div class="mt-auto">
                                 <a href="${element.html_url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
@@ -108,7 +117,6 @@ async function generateCard(response) {
                     </div>
                 </div>
                 `;
-                cardsCount++;
             }
         });
 
